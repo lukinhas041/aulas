@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    algoritmo armazenar_numeros
+    var(10)
+    numero, A, B: inteiro;
+    inicio
+    escreva("Digite um número: ")
+    leia(numero)
+    se numero >= 10
+    A <- numero
+    senao
+    B <- numero
+    fimse
+    escreva("Valor de A: ", A)
+    escreva("Valor de B: ", B)
+    fim
+    
+  }
+}
