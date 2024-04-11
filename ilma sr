@@ -1,0 +1,21 @@
+Algoritmo SaudacaoGenerica
+    // Declaração das variáveis
+    nome: caractere
+    sexo: caractere
+
+    // Entrada de dados
+    Escreva("Digite o nome da pessoa:")
+    Leia(nome)
+    Escreva("Digite o sexo da pessoa (M para masculino, F para feminino):")
+    Leia(sexo)
+
+    // Verificação do sexo e exibição da saudação adequada
+    Se sexo = 'M' OU sexo = 'm' Então
+        Escreva("Ilmo Sr. ", nome)
+    Senão Se sexo = 'F' OU sexo = 'f' Então
+        Escreva("Ilma Sra. ", nome)
+    Senão
+        Escreva("Sexo não reconhecido.")
+    Fim Se
+
+Fim Algoritmos
