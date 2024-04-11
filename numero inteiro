@@ -1,0 +1,17 @@
+Algoritmo ParOuImpar
+
+    // Declaração de variáveis
+    numero: inteiro
+
+    // Solicita ao usuário que insira um número inteiro
+    Escreva("Digite um número inteiro: ")
+    Leia(numero)
+
+    // Verifica se o número é par ou ímpar
+    Se numero % 2 = 0 Então
+        Escreva("O número é par")
+    Senão
+        Escreva("O número é ímpar")
+    FimSe
+
+FimAlgoritmo
